@@ -1,32 +1,178 @@
+.sav-opt {
+    font-size: x-large;
+    color: blue;
+}
 
-@media only screen and (max-width: 1000px) {
-    .left-header {
-      display: none;
-    }
-  }
+.price-p {
+    border: 2px solid darkblue;
+    font-size: 30px;
+}
 
-  @media only screen and (max-width: 325px) {
-    .right-header {
-      display: none;
-    }
-  } 
- 
+.offers1 {
+    overflow: hidden;
+    border: 2px solid blue;
+    color: white;
+    margin-right: 2%;
+    border-radius: 0.25rem;
+    font-size: 25px;
+    background-color: #192BB9;
+}
+
+.offers {
+    overflow: hidden;
+    border: 2px solid blue;
+    color: blue;
+    margin-right: 2%;
+    border-radius: 0.25rem;
+    font-size: 25px;
+}
+
+.navi-link {
+    color: #192BB9;
+}
+
+.nav-droper {
+    color: white;
+    background-color: #192BB9;
+    font-size: 15px;
+    border-radius: 0.5rem;
+}
+
+.slider-top {
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+}
+
+.products-p {
+    color: blue;
+}
+
+.discount {
+    padding-bottom: 25px;
+    color: red;
+}
+
+.c-items {
+    justify-content: center;
+}
+
+.slogans {
+    background-color: #e0d3ba;
+}
+
+.footer-main-block {
+    background-color: blue;
+    padding-bottom: 150px;
+}
+
+.footer-block {
+    color: white;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.contact-details {
+    background-color: #04cf69;
+    color: white;
+}
+
+.product-v {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.product-v-main {
+    background-color: blue;
+    border-bottom: 5px solid lightgreen;
+}
+
+.comunity-images {
+    color: #192BB9;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.carousel-item-button {
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.footer-social {
+    background-color: blue;
+    list-style-type: none;
+}
+
+.privacy-policy {
+    color: white;
+}
+
+.copy-rights {
+    color: white;
+}
+
+.footer-descp2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-descp1 {
+    border: 1px solid white;
+    font-size: 1rem;
+    margin-top: 5%;
+    color: white;
+}
+
+.cart-top {
+    height: 25px;
+}
+
+.account-top {
+    height: 20px;
+}
+
+.customer-service {
+    height: 20px;
+}
 
 .header {
     background-color: darkblue;
 }
 
-.banner-image img{
-    padding-top: 5px;
+.banner-image img {
+    padding-top: 0.5rem;
     padding-left: 15px;
 }
 
-.bn-title{
+.bn-title {
     color: white;
 }
 
-.right-header{
-    
+.rand-3 {
+    color: blue;
+}
+
+.rand-4 {
+    border: 5px solid darkblue;
+    font-size: 30px;
+}
+
+.rand-5 {
+    color: white;
+}
+
+.rand-6 {
+    width: 100%;
+    background-color: #192BB9;
+}
+
+.rand-7 {
+    color: blue;
+}
+
+.right-header {
+
     text-decoration: none;
     color: white;
 }
@@ -54,6 +200,29 @@ body {
     overflow: hidden;
 }
 
+.random-1 {
+    margin-left: 5%;
+}
+
+.rand-8 {
+    font-size: 2rem;
+    color: blue;
+}
+
+.rand-9 {
+    font-size: 2rem;
+    color: blue;
+}
+
+.rand-10 {
+    border-bottom: 5px solid blue;
+}
+
+.random2 {
+    font-size: 2rem;
+    color: #192BB9;
+}
+
 .carousel .carousel-item h4 {
     font-family: 'Varela Round', sans-serif;
 }
@@ -65,7 +234,7 @@ body {
 
 .carousel .carousel-item .btn {
     border-radius: 0;
-    font-size: 12px;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
     border: none;
@@ -79,7 +248,7 @@ body {
 }
 
 .carousel .carousel-item .btn i {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: bold;
     margin-left: 5px;
 }
@@ -103,7 +272,7 @@ body {
     background: none;
     margin: auto 0;
     border-radius: 50%;
-    border: 3px solid rgba(0, 0, 0, 0.8);
+    border: 0.25rem solid rgba(0, 0, 0, 0.8);
 }
 
 .carousel-control-prev i,
@@ -121,9 +290,6 @@ body {
     font-weight: bold;
 }
 
-/* li {
-    list-style-type: none;
-} */
 
 .carousel-control-prev i {
     margin-left: -3px;
@@ -142,7 +308,7 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin: 4px;
+    margin: 0.25rem;
     border: none;
 }
 
@@ -154,9 +320,25 @@ body {
     background: #555;
 }
 
-.reviews{
-    transform: rotate(-90deg);
+.reviews {
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+    transform: rotate(90deg);
     margin-left: 0%;
     border-radius: 0.25rem;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .left-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .right-header {
+        display: none;
+    }
 }
