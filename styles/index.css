@@ -1,0 +1,344 @@
+.sav-opt {
+    font-size: x-large;
+    color: blue;
+}
+
+.price-p {
+    border: 2px solid darkblue;
+    font-size: 30px;
+}
+
+.offers1 {
+    overflow: hidden;
+    border: 2px solid blue;
+    color: white;
+    margin-right: 2%;
+    border-radius: 0.25rem;
+    font-size: 25px;
+    background-color: #192BB9;
+}
+
+.offers {
+    overflow: hidden;
+    border: 2px solid blue;
+    color: blue;
+    margin-right: 2%;
+    border-radius: 0.25rem;
+    font-size: 25px;
+}
+
+.navi-link {
+    color: #192BB9;
+}
+
+.nav-droper {
+    color: white;
+    background-color: #192BB9;
+    font-size: 15px;
+    border-radius: 0.5rem;
+}
+
+.slider-top {
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+}
+
+.products-p {
+    color: blue;
+}
+
+.discount {
+    padding-bottom: 25px;
+    color: red;
+}
+
+.c-items {
+    justify-content: center;
+}
+
+.slogans {
+    background-color: #e0d3ba;
+}
+
+.footer-main-block {
+    background-color: blue;
+    padding-bottom: 150px;
+}
+
+.footer-block {
+    color: white;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.contact-details {
+    background-color: #04cf69;
+    color: white;
+}
+
+.product-v {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.product-v-main {
+    background-color: blue;
+    border-bottom: 5px solid lightgreen;
+}
+
+.comunity-images {
+    color: #192BB9;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.carousel-item-button {
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.footer-social {
+    background-color: blue;
+    list-style-type: none;
+}
+
+.privacy-policy {
+    color: white;
+}
+
+.copy-rights {
+    color: white;
+}
+
+.footer-descp2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-descp1 {
+    border: 1px solid white;
+    font-size: 1rem;
+    margin-top: 5%;
+    color: white;
+}
+
+.cart-top {
+    height: 25px;
+}
+
+.account-top {
+    height: 20px;
+}
+
+.customer-service {
+    height: 20px;
+}
+
+.header {
+    background-color: darkblue;
+}
+
+.banner-image img {
+    padding-top: 0.5rem;
+    padding-left: 15px;
+}
+
+.bn-title {
+    color: white;
+}
+
+.rand-3 {
+    color: blue;
+}
+
+.rand-4 {
+    border: 5px solid darkblue;
+    font-size: 30px;
+}
+
+.rand-5 {
+    color: white;
+}
+
+.rand-6 {
+    width: 100%;
+    background-color: #192BB9;
+}
+
+.rand-7 {
+    color: blue;
+}
+
+.right-header {
+
+    text-decoration: none;
+    color: white;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+body {
+    background: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.list-group-item {
+    background-color: blue;
+}
+
+.carousel {
+    margin: 30px auto 60px;
+    padding: 0 80px;
+}
+
+.carousel .carousel-item {
+    text-align: center;
+    overflow: hidden;
+}
+
+.random-1 {
+    margin-left: 5%;
+}
+
+.rand-8 {
+    font-size: 2rem;
+    color: blue;
+}
+
+.rand-9 {
+    font-size: 2rem;
+    color: blue;
+}
+
+.rand-10 {
+    border-bottom: 5px solid blue;
+}
+
+.random2 {
+    font-size: 2rem;
+    color: #192BB9;
+}
+
+.carousel .carousel-item h4 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.carousel .carousel-item img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.carousel .carousel-item .btn {
+    border-radius: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background: #a177ff;
+    padding: 6px 15px;
+    margin-top: 5px;
+}
+
+.carousel .carousel-item .btn:hover {
+    background: #8c5bff;
+}
+
+.carousel .carousel-item .btn i {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.carousel .thumb-wrapper {
+    margin: 5px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.carousel .thumb-content {
+    padding: 15px;
+    font-size: 13px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 44px;
+    width: 44px;
+    background: none;
+    margin: auto 0;
+    border-radius: 50%;
+    border: 0.25rem solid rgba(0, 0, 0, 0.8);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+
+.carousel-control-prev i {
+    margin-left: -3px;
+}
+
+.carousel-control-next i {
+    margin-right: -3px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0.25rem;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: #ababab;
+}
+
+.carousel-indicators li.active {
+    background: #555;
+}
+
+.reviews {
+    background-color: darkblue;
+    color: white;
+    position: fixed;
+    transform: rotate(90deg);
+    margin-left: 0%;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .left-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .right-header {
+        display: none;
+    }
+}
